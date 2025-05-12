@@ -5,8 +5,7 @@
 
 ## **Bangumi 账号注册**
 - **浏览器访问流程**
-    - **访问 Bangumi**
-        - [Bangumi](https://bgm.tv)
+    - **访问 [Bangumi](https://bgm.tv)**
     - **操作步骤**
         - 显示“该网站被举报”提示时，更换浏览器（如 Kiwi/Edge/Firefox/Chrome/Yandex/Via/X）
         - 按图示流程操作（共7张图片）
