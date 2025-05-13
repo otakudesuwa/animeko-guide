@@ -31,7 +31,7 @@
     - *桌面版视图会导致授权失败*
 ## **Animeko 功能介绍**
 > [!NOTE]
-> 基于4.10.1版本，低于此版本可能会有部分条目搜索出现"未知错误"，原因是Bangumi添加了新字段，导致Animeko无法解析数据。版本迭代比较快，请尽量保持最新版本！
+> 基于安卓端4.10.1版本，低于此版本可能会有部分条目搜索出现"未知错误"，原因是Bangumi添加了新字段，导致Animeko无法解析数据。版本迭代比较快，请尽量保持最新版本！
 <details>
   <summary>点击展开详细功能列表</summary>
 
@@ -225,7 +225,7 @@
 - **编写CSS Selector数据源所需知识与工具**
     - **HTML标签（难度:低）**
         - *资料：[HTML标签](https://www.w3school.com.cn/tags/index.asp)*
-    - **CSS选择器：（难度:低）**
+    - **CSS选择器（难度:低）**
         - *资料：[CSS选择器](https://www.runoob.com/cssref/css-selectors.html)*
     - **正则表达式（难度:高）**
         - *资料：[正则表达式语法](https://stackoverflow.org.cn/regexsucha)*
@@ -236,7 +236,7 @@
         - *桌面系统：任意主流浏览器*
     - **JSON语法(难度:低)**
         - *资料：[JSON语法](https://www.runoob.com/json/json-syntax.html)*
-        - *提示：非硬性要求，仅在脱离 Animeko 时修改配置需要相关知识*
+        - *提示：非硬性要求，仅在脱离软件时修改配置需要相关知识*
 - **编写RSS BT数据源所需知识与工具**
     - **HTML标签（难度:低）**
     - **CSS选择器（难度:低）**
@@ -245,6 +245,7 @@
     - **开发者工具 或 抓包工具**
         - *安卓推荐：[ProxyPin](https://github.com/wanghongenpin/proxypin/releases/latest)*
         - *桌面系统：任意主流浏览器*
+## **数据源编写**
 - **实战: CSS Selector数据源编写**
     - *无下级展开*
 - **实战: RSS BT数据源编写**
