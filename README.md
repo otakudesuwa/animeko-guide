@@ -228,12 +228,14 @@
         > 追求流畅用这个
 - **编写CSS Selector数据源所需知识与工具**
     - **HTML标签（难度:低）**
-        - *资料：[HTML标签](https://www.w3school.com.cn/tags/index.asp)*
+        - *资料：[W3School - HTML标签](https://www.w3school.com.cn/tags/index.asp)*
+        - *目标：简单了解即可*
     - **CSS选择器（难度:低）**
-        - *资料：[CSS选择器](https://www.runoob.com/cssref/css-selectors.html)*
+        - *资料：[Runoob - CSS选择器](https://www.runoob.com/cssref/css-selectors.html)*
+        - *目标：能够按条件选择合适的选择器*
     - **正则表达式（难度:高）**
-        - *资料：[正则表达式语法](https://stackoverflow.org.cn/regexsucha)*
-        - *工具：[正则表达式测试工具](https://stackoverflow.org.cn/regex)*
+        - *资料：[Stackoverflow - 正则表达式语法](https://stackoverflow.org.cn/regexsucha)*
+        - *工具：[Stackoverflow - 正则表达式测试工具](https://stackoverflow.org.cn/regex)*
         - ***提示：学不会可以问AI***
     - **开发者工具（难度:中）**
         - *安卓系统：[Kiwi浏览器](https://github.com/kiwibrowser/src.next/releases/latest)，内置完整功能的开发者工具*
