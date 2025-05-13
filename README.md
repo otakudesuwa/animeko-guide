@@ -245,7 +245,8 @@
     - **CSS选择器（难度:低）**
     - **开发者工具（难度:中）**
 - **编写Jellyfin与Emby数据源所需知识与工具**
-    - **开发者工具 或 抓包工具**
+    - **开发者工具（难度:中）**
+    - **抓包工具（难度:低）**
         - *安卓推荐：[ProxyPin](https://github.com/wanghongenpin/proxypin/releases/latest)*
         - *桌面系统：任意主流浏览器*
 
