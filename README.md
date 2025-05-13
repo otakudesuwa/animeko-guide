@@ -131,7 +131,7 @@
     - **分享率限制**
         - *流量用户拉到最低，WiFi用户尽量≥2MB/s，避免死种*
     - **计费网络限制上传**
-        - *数据流量/随身WiFi用户可开启（限制上传速度为1KB/s）*
+        - *计费网络用户可开启（限制上传速度为1KB/s）*
     - **Peer过滤和屏蔽设置**
         - *在下载或上传数据时不与黑名单和被规则过滤的客户端连接*
         - *若不知道这是什么请不要修改*
@@ -161,36 +161,49 @@
     - **版本号**
         - *点击5次可开启调试模式*
     - **更新说明**
-        - *查看更新日志*
+        - *查看 [更新日志](https://github.com/open-ani/animeko/release)*
     - **官网**
-        - *访问[Animeko官网](https:myani.org)*
+        - *访问 [Animeko官网](https:myani.org)*
     - **反馈建议**
-        - *访问[Animeko仓库Issues页面](https://github.com/open-ani/animeko/issues)*
+        - *访问 [Animeko仓库Issues页面](https://github.com/open-ani/animeko/issues)*
     - **源代码**
-        - *访问[Animeko仓库主页](https://github.com/open-ani/animeko)*
+        - *访问 [Animeko仓库主页](https://github.com/open-ani/animeko)*
     - **开发者名单**
-        - *查看所有开发者* 
+        - *查看 [所有开发者](https://github.com/open-ani/animeko/graphs/contributors)* 
     - **鸣谢**
-        - *提供API的第三方*
+        - *提供API的第三方：[Bangumi](https://bangumi.tv)，[弹弹Play](https://dandanplay.com)*
     - **交流群**
-        - *[官方QQ群]() 和 [Telegram群]()*
-        - [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white)](https://t.me/openani) [![QQ](https://img.shields.io/badge/1019689427-EB1923?logo=tencent-qq&logoColor=white)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=2EbZ0Qxe-fI_AHJLCMnSIOnqw-nfrFH5&authKey=L31zTMwfbMG0FhIgt8xNHGOFPHc531mSw2YzUVupHLRJ4L2f8xerAd%2ByNl4OigRK&noverify=0&group_code=1019689427)
+        - *官方QQ群 和 Telegram群*
+- **调试模式**
+    - **调试模式状态**
+        - *不使用时请关闭，调试模式可能会造成卡顿*
+    - **显示所有剧集**
+        - *显示SP、OP、ED等，目前仅少数在线源支持，谨慎启用*
+    - **计费网络信息**
+        - *支持计费网络最小上传*
+        - *是否为计费网络*
+    - **进入新手向导**
+    - **重置新手引导状态**
+        - *重置后，下次启动软件会进入新手引导*
+    - **获取 Bangumi access token**
+    - **获取 Ani access token**
+    - **Crush**
 </details>
 
 ## **数据源**
 - **定义**
-    - 提供数据的网站统称数据源
-    - 无入站检测和加密的网站才可编写数据源
+    - *提供数据的网站统称数据源*
+    - *无入站检测和数据加密的网站才可编写数据源*
 - **获取途径**
     - **Animeko官方(内置源)**
-        - https://sub.creamycake.org/v1/bt1.json
-        - https://sub.creamycake.org/v1/css1.json
+        - *https://sub.creamycake.org/v1/bt1.json*
+        - *https://sub.creamycake.org/v1/css1.json*
     - **第三方分享**
-        - https://gitee.com/wan0ge/extract-pure-links/raw/Ani_Pages/H.json
-        - https://masofod.github.io/anibt.json
-        - https://raw.githubusercontent.com/Nier4ever/ani-sub/main/css.json
+        - *https://gitee.com/wan0ge/extract-pure-links/raw/Ani_Pages/H.json*
+        - *https://masofod.github.io/anibt.json*
+        - *https://raw.githubusercontent.com/Nier4ever/ani-sub/main/css.json*
     - **自己编写**
-        - *本文档会详细讲解，*
+        - *本文档会详细讲解制作方法*
         - *我个人的数据源仓库 [Animeko-Subs](https://github.com/otakudesuwa/animeko-subs)*
 - **支持的数据源类型**
     - 蜜柑计划
@@ -210,41 +223,37 @@
     - **CSS Selector数据源**
         - *追求流畅用这个*
 - **编写CSS Selector数据源所需知识与工具**
-    - **HTML标签(难度:低)**
-        - 推荐学习：[HTML标签](https://www.w3school.com.cn/tags/index.asp)
-    - **CSS选择器(难度:低)**
-        - 推荐学习：[CSS选择器](https://www.runoob.com/cssref/css-selectors.html)
-    - **正则表达式(难度:高)**
-        - 推荐学习：[正则表达式语法](https://stackoverflow.org.cn/regexsucha)
-        - 工具：[正则表达式测试工具](https://stackoverflow.org.cn/regex)
-        - 提示：学不会可问AI
-    - **网页开发者工具(难度:中)**
-        - 安卓推荐：[Kiwi浏览器](https://github.com/kiwibrowser/src.next/releases/latest)
-        - 桌面系统：任意主流浏览器
+    - **HTML标签（难度:低）**
+        - *资料：[HTML标签](https://www.w3school.com.cn/tags/index.asp)*
+    - **CSS选择器：（难度:低）**
+        - *资料：[CSS选择器](https://www.runoob.com/cssref/css-selectors.html)*
+    - **正则表达式（难度:高）**
+        - *资料：[正则表达式语法](https://stackoverflow.org.cn/regexsucha)*
+        - *工具：[正则表达式测试工具](https://stackoverflow.org.cn/regex)*
+        - ***提示：学不会可以问AI***
+    - **开发者工具（难度:中）**
+        - *安卓系统：[Kiwi浏览器](https://github.com/kiwibrowser/src.next/releases/latest)，内置完整功能的开发者工具*
+        - *桌面系统：任意主流浏览器*
     - **JSON语法(难度:低)**
-        - 推荐学习：[JSON语法](https://www.runoob.com/json/json-syntax.html)
+        - *资料：[JSON语法](https://www.runoob.com/json/json-syntax.html)*
+        - *提示：非硬性要求，仅在脱离 Animeko 时修改配置需要相关知识*
 - **编写RSS BT数据源所需知识与工具**
-    - **HTML标签(难度:低)**
-        - *无下级展开*
-    - **CSS选择器(难度:低)**
-        - *无下级展开*
-    - **网页开发者工具(难度:中)**
-        - *无下级展开*
+    - **HTML标签（难度:低）**
+    - **CSS选择器（难度:低）**
+    - **开发者工具（难度:中）**
 - **编写Jellyfin与Emby数据源所需知识与工具**
-    - **网页开发者工具 或 抓包工具**
-        - 安卓推荐：[ProxyPin](https://github.com/wanghongenpin/proxypin/releases/latest)
+    - **开发者工具 或 抓包工具**
+        - *安卓推荐：[ProxyPin](https://github.com/wanghongenpin/proxypin/releases/latest)*
+        - *桌面系统：任意主流浏览器*
 - **实战: CSS Selector数据源编写**
     - *无下级展开*
 - **实战: RSS BT数据源编写**
     - *无下级展开*
 - **实战: Emby数据源编写(Jellyfin相同)**
     - *无下级展开*
-- **常见问题**
-    - **网站有资源但需翻页，Animeko无法显示**
-        - 原因：暂不支持自动翻页
-        - 解决方案：等待后续更新
-- **特殊用法**
-    - *无下级展开*
-- **文档说明**
-    - **说明内容**
-        - 帮助解决使用问题，讲解官方未提及的深入知识
+## **Animeko 常见问题**
+- **网站有资源但需翻页，Animeko无法显示**
+    - 原因：暂不支持自动翻页
+    - 解决方案：等待后续更新
+## **特殊用法**
+- **无下级展开**
