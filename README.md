@@ -240,9 +240,11 @@
     - **开发者工具（难度:中）**
         - *安卓系统：[Kiwi浏览器](https://github.com/kiwibrowser/src.next/releases/latest)，内置完整功能的开发者工具*
         - *桌面系统：任意主流浏览器*
+        - *目标：学会使用 审查元素 和 网络监控 即可*
     - **JSON语法(难度:低)**
         - *资料：[JSON语法](https://www.runoob.com/json/json-syntax.html)*
         - *提示：非硬性要求，仅在脱离软件时修改配置需要相关知识*
+        - *目标：能看懂配置即可*
 - **编写RSS BT数据源所需知识与工具**
     - **HTML标签（难度:低）**
     - **CSS选择器（难度:低）**
