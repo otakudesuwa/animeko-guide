@@ -200,15 +200,17 @@
 
 ## **Animeko 数据源**
 1. **定义**
-    > 提供数据的网站统称为数据源   
-2. **限制条件**   
+    > 提供数据的网站统称为数据源
+
+2. **限制条件**
+    > 网站必须满足以下条件才可编写数据源
     - **无人机验证**
-        > 反例：[嗷呜动漫](https://www.aowu.tv)，入站需输入随机验证码   
-        > 补充：其它验证类型如 Cloudflare Turnstile，Google reCAPTCHA等
+        - *反例：[嗷呜动漫](https://www.aowu.tv)，入站需输入随机验证码*   
+        - *补充：其它验证类型如 Cloudflare Turnstile，Google reCAPTCHA等*
     - **无数据加密**
-        > 反例：[Anich](https://anich.emmmm.eu.org)，视频链接经过加密
+        - *反例：[Anich](https://anich.emmmm.eu.org)，视频链接经过加密*
     - **查询请求方式为Post**
-        > 反例：[动漫花园同步站](https://dongmanhuayuan.myheartsite.com)，查询方式为异步请求
+        - *反例：[动漫花园同步站](https://dongmanhuayuan.myheartsite.com)，查询方式为异步请求*
 
 2. **获取途径**
     - **Animeko官方(内置源)**
