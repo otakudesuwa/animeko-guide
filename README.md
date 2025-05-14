@@ -27,7 +27,7 @@
     > Gmail 等国外邮箱需要开代理才能收到邮件，推荐使用国内邮箱   
     > 确保登录的是注册所用的邮箱
 5. **注册时一直激活失败**
-    > 删除激活码的最后一个字，然后手动输入删除的字，或更换其他浏览器
+    > 删除激活码的最后一个字，手动输入删除的字，或更换浏览器
 6. **账户激活服务暂时不可用，请稍后重试 或 您的激活请求已超时**
     > 换个邮箱注册即可   
     > 若不想浪费此邮箱，请用新注册的号给 Bangumi 的站长 [Sai](https://bgm.tv/user/sai) 发 _短消息_，请他帮你把新账号的邮箱更改为激活失败的邮箱
@@ -280,7 +280,7 @@
 7. **编写Jellyfin与Emby数据源所需知识与工具**
     - **开发者工具（难度:中）**
     - **抓包工具（难度:低）**
-        - *安卓推荐：[ProxyPin](https://github.com/wanghongenpin/proxypin/releases/latest)*
+        - *安卓推荐：[ProxyPin](https://github.com/wanghongenpin/proxypin/releases/latest)，开源免费，功能齐全*
         - *桌面系统：任意主流浏览器*
 
 
