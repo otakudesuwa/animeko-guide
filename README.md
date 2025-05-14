@@ -240,6 +240,9 @@
         > 我个人的数据源仓库 [Animeko-Subs](https://github.com/otakudesuwa/animeko-subs)
 
 4. **支持的数据源类型**
+    <details>
+        <summary>点击展开数据源类型</summary>
+
     - 蜜柑计划
         > 源站，大陆需代理，内置数据源，不可编辑
     - 动漫花园
@@ -256,8 +259,12 @@
         > 目前处于开发阶段，功能不够完善，不推荐
     - **CSS Selector数据源**
         > 追求流畅用这个
+    </details>
 
 5. **编写CSS Selector数据源所需知识与工具**
+    <details>
+        <summary>点击展开学习路线</summary>
+
     - **HTML标签（难度:低）**
         - *资料：[W3School - HTML标签](https://www.w3school.com.cn/tags/index.asp)*
         - *目标：简单了解即可*
@@ -276,13 +283,17 @@
         - *资料：[JSON语法](https://www.runoob.com/json/json-syntax.html)*
         - *目标：能看懂配置即可*
         - *提示：非硬性要求，仅在脱离软件时修改配置需要相关知识*
+    </details>
 
 6. **编写RSS BT数据源所需知识与工具**
+    > 同CSS Selector
     - **HTML标签（难度:低）**
     - **CSS选择器（难度:低）**
     - **开发者工具（难度:中）**
 
-7. **编写Jellyfin与Emby数据源所需知识与工具**
+
+8. **编写Jellyfin与Emby数据源所需知识与工具**
+    > 同CSS Selector
     - **开发者工具（难度:中）**
     - **抓包工具（难度:低）**
         - *安卓推荐：[ProxyPin](https://github.com/wanghongenpin/proxypin/releases/latest)，开源免费，功能齐全*
@@ -302,6 +313,9 @@
 > 以下方法同样适用于Jellyfin配置获取
 
 #### **使用 开发者工具 获取（通用）**
+<details>
+  <summary>点击展开详细步骤</summary>
+
 1. **在浏览器登录Emby服务器，非管理员账号也可用**
 2. **进 _设置_ 页面打开 _用户配置_，打开浏览器的 _开发者工具_**
 3. **切换到 _网络_ 选项卡，选择 _过滤_ 下面一行的 _文档_**
@@ -310,8 +324,12 @@
 6. **从启动器下的链接找到 _api_key=_ 和 _UserId=_ 后的参数，直到 _&_**
 7. **启动 _Animeko_，进 _数据源管理_，点 _+_ 选择 _Emby_**
 8. **在弹出窗口依次填入 _服务器地址、User Id、API Key_ 点 _保存_**
+</details>
 
-#### **使用 抓包工具 获取（通用）**
+#### **使用 抓包工具 - ProxyPin 获取（通用）**
+<details>
+  <summary>点击展开详细步骤</summary>
+
 1. **在浏览器登录Emby服务器，非管理员账号也可用**
 2. **进 _设置_ 页面打开 _用户配置_**
 3. **启动 _ProxyPin_，点右上角，选择 _应用白名单_**
@@ -324,8 +342,12 @@
 10. **复制 _UserId=_ 后的参数，直到 _&_**
 11. **启动 _Animeko_，进 _数据源管理_，点 _+_ 选择 _Emby_**
 12. **在弹出窗口依次填入 _服务器地址、User Id、API Key_ 点 _保存_**
+</details>
 
 #### **使用 Emby控制台 获取（仅限管理员）**
+<details>
+  <summary>点击展开详细步骤</summary>
+    
 1. **在浏览器用管理员账号登录Emby服务器**
 2. **在控制台左侧菜单中点 _用户_**
 3. **选择要获取User ID的账号，复制地址栏 _UserId=_ 后的参数，直到 _&_**
@@ -334,6 +356,7 @@
 6. **复制创建的API密钥**
 7. **启动 _Animeko_，进 _数据源管理_，点 _+_ 选择 _Emby_**
 8. **在弹出窗口依次填入 _服务器地址、User Id、API Key_ 点 _保存_**
+</details>
 
 
 
