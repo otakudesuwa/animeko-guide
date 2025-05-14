@@ -17,7 +17,7 @@
   | ![激活成功](https://i.imgs.ovh/2025/05/13/v1pdY.jpeg) |
   </details>
 
-### 常见问题
+### Bangumi 常见问题
 1. **根据监管部门规定及投诉举报，此链接违反相关法律法规，禁止访问**
    > 更换浏览器（如 Kiwi/Yandex/Firefox/Chrome/Edge/Via/X）
 2. **账户激活服务暂时不可用，请稍后重试 或 您的激活请求已超时**
@@ -194,11 +194,23 @@
 </details>
 
 
-## **数据源**
-- **定义**
-    > 提供数据的网站统称数据源   
-    > 无入站检测和数据加密的网站才可编写数据源
-- **获取途径**
+## Animeko 基本用法
+1. 
+
+
+## **Animeko 数据源**
+1. **定义**
+    > 提供数据的网站统称为数据源   
+2. **限制条件**   
+    - **无人机验证**
+        > 反例：[嗷呜动漫](https://www.aowu.tv)，入站需输入随机验证码   
+        > 补充：其它验证类型如 Cloudflare Turnstile，Google reCAPTCHA等
+    - **无数据加密**
+        > 反例：[Anich](https://anich.emmmm.eu.org)，视频链接经过加密
+    - **查询请求方式为Post**
+        > 反例：[动漫花园同步站](https://dongmanhuayuan.myheartsite.com)，查询方式为异步请求
+
+2. **获取途径**
     - **Animeko官方(内置源)**
         - https://sub.creamycake.org/v1/bt1.json
         - https://sub.creamycake.org/v1/css1.json
@@ -209,7 +221,8 @@
     - **自己编写**
         > 本文档会详细讲解制作方法   
         > 我个人的数据源仓库 [Animeko-Subs](https://github.com/otakudesuwa/animeko-subs)
-- **支持的数据源类型**
+
+3. **支持的数据源类型**
     - 蜜柑计划
         > 源站，大陆需代理，内置数据源，不可编辑
     - 动漫花园
@@ -226,7 +239,8 @@
         > 目前处于开发阶段，功能不够完善，不推荐
     - **CSS Selector数据源**
         > 追求流畅用这个
-- **编写CSS Selector数据源所需知识与工具**
+
+4. **编写CSS Selector数据源所需知识与工具**
     - **HTML标签（难度:低）**
         - *资料：[W3School - HTML标签](https://www.w3school.com.cn/tags/index.asp)*
         - *目标：简单了解即可*
@@ -243,13 +257,15 @@
         - *目标：学会使用 审查元素 和 网络监控 即可*
     - **JSON语法(难度:低)**
         - *资料：[JSON语法](https://www.runoob.com/json/json-syntax.html)*
-        - *提示：非硬性要求，仅在脱离软件时修改配置需要相关知识*
         - *目标：能看懂配置即可*
-- **编写RSS BT数据源所需知识与工具**
+        - *提示：非硬性要求，仅在脱离软件时修改配置需要相关知识*
+
+5. **编写RSS BT数据源所需知识与工具**
     - **HTML标签（难度:低）**
     - **CSS选择器（难度:低）**
     - **开发者工具（难度:中）**
-- **编写Jellyfin与Emby数据源所需知识与工具**
+
+6. **编写Jellyfin与Emby数据源所需知识与工具**
     - **开发者工具（难度:中）**
     - **抓包工具（难度:低）**
         - *安卓推荐：[ProxyPin](https://github.com/wanghongenpin/proxypin/releases/latest)*
