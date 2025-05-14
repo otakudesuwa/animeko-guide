@@ -212,7 +212,7 @@
     - **查询请求方式为Post**
         - *反例：[动漫花园同步站](https://dongmanhuayuan.myheartsite.com)，查询方式为异步请求*
 
-2. **获取途径**
+3. **获取途径**
     - **Animeko官方(内置源)**
         - https://sub.creamycake.org/v1/bt1.json
         - https://sub.creamycake.org/v1/css1.json
@@ -224,7 +224,7 @@
         > 本文档会详细讲解制作方法   
         > 我个人的数据源仓库 [Animeko-Subs](https://github.com/otakudesuwa/animeko-subs)
 
-3. **支持的数据源类型**
+4. **支持的数据源类型**
     - 蜜柑计划
         > 源站，大陆需代理，内置数据源，不可编辑
     - 动漫花园
@@ -242,7 +242,7 @@
     - **CSS Selector数据源**
         > 追求流畅用这个
 
-4. **编写CSS Selector数据源所需知识与工具**
+5. **编写CSS Selector数据源所需知识与工具**
     - **HTML标签（难度:低）**
         - *资料：[W3School - HTML标签](https://www.w3school.com.cn/tags/index.asp)*
         - *目标：简单了解即可*
@@ -262,12 +262,12 @@
         - *目标：能看懂配置即可*
         - *提示：非硬性要求，仅在脱离软件时修改配置需要相关知识*
 
-5. **编写RSS BT数据源所需知识与工具**
+6. **编写RSS BT数据源所需知识与工具**
     - **HTML标签（难度:低）**
     - **CSS选择器（难度:低）**
     - **开发者工具（难度:中）**
 
-6. **编写Jellyfin与Emby数据源所需知识与工具**
+7. **编写Jellyfin与Emby数据源所需知识与工具**
     - **开发者工具（难度:中）**
     - **抓包工具（难度:低）**
         - *安卓推荐：[ProxyPin](https://github.com/wanghongenpin/proxypin/releases/latest)*
