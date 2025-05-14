@@ -247,7 +247,7 @@
         > 支持不完善，能用
     - **Emby Media Server**
         > 支持不完善，能用
-    - **Ikaros CMS**
+    - Ikaros CMS
         > 目前处于开发阶段，功能不够完善，不推荐
     - **CSS Selector数据源**
         > 追求流畅用这个
